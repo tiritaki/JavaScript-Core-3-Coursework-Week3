@@ -6,3 +6,14 @@ let order = [
   { itemName: "Hot Coffee", quantity: 2, unitPrice: 1.0 },
   { itemName: "Hash Brown", quantity: 4, unitPrice: 0.4 },
 ];
+
+let [hotCake, applePie, eggMcMuffin, sausageMcMuffin, hotCoffee, hashBrown] = order
+console.log(` QTY     ITEM                       TOTAL` )
+order.forEach(item => {
+  console.log(`  ${item.quantity}     ${(item.itemName).padEnd(16)}             ${item.quantity*item.unitPrice}` )
+})
+let totalPrice = 0
+order.forEach(total => {
+  totalPrice += total.quantity*total.unitPrice
+})
+console.log(`  Total: ${totalPrice}`)

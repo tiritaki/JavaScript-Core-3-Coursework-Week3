@@ -15,6 +15,7 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
+global and local scope variables
 
 ## Question 2
 
@@ -34,6 +35,7 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+10 and undefined
 
 ## Question 3
 
@@ -62,3 +64,4 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+9 and 10
